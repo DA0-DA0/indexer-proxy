@@ -29,6 +29,7 @@ const INDEXER_HOST_MAP = {
   'dev-1': 'thorChain-testnet.indexer.zone',
   'xion-testnet-2': 'xion-testnet.indexer.zone',
   'xion-mainnet-1': 'xion-mainnet.indexer.zone',
+  'thorchain-stagenet-2': 'thorchain-stagenet.indexer.zone',
 }
 
 const queryIndexer = async ({ API_KEY }: Env, url: URL) => {
