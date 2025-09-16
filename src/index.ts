@@ -32,6 +32,7 @@ const INDEXER_HOST_MAP = {
   'thorchain-1': 'thorchain-mainnet.indexer.zone',
   'thorchain-stagenet-2': 'thorchain-stagenet.indexer.zone',
   'regen-1': 'regen-mainnet.indexer.zone',
+  'regen-upgrade': 'regen-testnet.indexer.zone',
 }
 
 const queryIndexer = async ({ API_KEY }: Env, url: URL) => {
